@@ -1,0 +1,22 @@
+.submit {
+    width: 20%;
+    height: 50px;
+    background-color: #4c4c4b;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.submit[disabled] {
+    cursor: not-allowed;
+}
+
+@media screen and (max-width:500px) {
+    .submit {
+        bottom: 0;
+        right: 0;
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+    }    
+}

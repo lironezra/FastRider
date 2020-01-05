@@ -1,0 +1,20 @@
+.page {
+    margin-top: 50px;
+    width: 345px;
+
+    .back-button-container {
+        margin-bottom: 20px;
+        height: 40px;
+        width: 100%;
+        
+        button {
+            float: left;
+        }
+    }
+
+    .instruction-item{
+        width: 215px;
+        height: 120px;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,72 @@
+.collection-item {
+    width: 100%;
+    height: 152px;
+    background-color: #373737;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: transform .2s;
+    cursor: pointer;
+    
+    .item-header {
+        margin-bottom: 7px;
+        .header-text {
+            float: right;
+            padding-right: 6px;
+            margin-top: 4px;
+            font-size: 13px;
+        }
+    }
+
+    .item-name {
+        color: white;
+        font-size: 20px;
+        width: 70%;
+        margin: 0 auto;
+
+        .name-text {
+            margin-top: 0;
+        }
+    }
+
+    .item-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 0;
+        width: 89%;
+        margin-left: 10px;
+
+        .footer-left,  .footer-right {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            font-size: 13px;
+            
+            .text {
+                margin-left: 3px;
+            }
+        }
+
+        .icon {
+            width: 17px;
+            height: 17px;
+        }
+    }
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.out-of-stock {
+ color:  rgb(231, 111, 104);
+ text-transform: uppercase;
+}
