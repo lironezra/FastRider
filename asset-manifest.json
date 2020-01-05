@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/FastRider/static/css/main.a627d30c.chunk.css",
+    "main.js": "/FastRider/static/js/main.93c4af59.chunk.js",
+    "main.js.map": "/FastRider/static/js/main.93c4af59.chunk.js.map",
+    "runtime-main.js": "/FastRider/static/js/runtime-main.6c1afadd.js",
+    "runtime-main.js.map": "/FastRider/static/js/runtime-main.6c1afadd.js.map",
+    "static/js/2.0f3db674.chunk.js": "/FastRider/static/js/2.0f3db674.chunk.js",
+    "static/js/2.0f3db674.chunk.js.map": "/FastRider/static/js/2.0f3db674.chunk.js.map",
+    "index.html": "/FastRider/index.html",
+    "precache-manifest.1cdd086a65133603721ebadb4eceb34e.js": "/FastRider/precache-manifest.1cdd086a65133603721ebadb4eceb34e.js",
+    "service-worker.js": "/FastRider/service-worker.js",
+    "static/css/main.a627d30c.chunk.css.map": "/FastRider/static/css/main.a627d30c.chunk.css.map",
+    "static/js/2.0f3db674.chunk.js.LICENSE": "/FastRider/static/js/2.0f3db674.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6c1afadd.js",
+    "static/js/2.0f3db674.chunk.js",
+    "static/css/main.a627d30c.chunk.css",
+    "static/js/main.93c4af59.chunk.js"
+  ]
+}
